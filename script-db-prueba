@@ -1,0 +1,17 @@
+CREATE DATABASE `prueba-direcly` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE TABLE `persona` (
+  `idpersona` int unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  `apellidos` varchar(45) DEFAULT NULL,
+  `cedula` varchar(45) DEFAULT NULL,
+  `correo` varchar(45) DEFAULT NULL,
+  `edad` varchar(45) DEFAULT NULL,
+  `genero` varchar(45) DEFAULT NULL,
+  `ciudad` varchar(45) DEFAULT NULL,
+  `pais` varchar(45) DEFAULT NULL,
+  `cursos` varchar(45) DEFAULT NULL,
+  `telefono` varchar(45) DEFAULT NULL,
+  `fecha_registro` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idpersona`)
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
