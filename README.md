@@ -9,7 +9,7 @@
 
 # Instalación
  ## Clonar el repositorio
-- git clone https://github.com/mi-usuario/mi-api.git
+- git clone https://github.com/JheanCF/api-personas.git
 - npm install
 # Uso
 - docker build -t api-prueba .
@@ -31,7 +31,7 @@
 
 # Instalación
  ## Clonar el repositorio
-- git clone https://github.com/mi-usuario/mi-api.git
+- git clone https://github.com/JheanCF/front-end-personas.git
 - npm install
 # Uso
 - npm start
